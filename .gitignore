@@ -1,0 +1,26 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# app data (created on first run) and test databases
+data/*.db
+data/*.db-wal
+data/*.db-shm
+output/.tokenomics_medium.json
+
+# frontend (dist/ IS committed so the app runs without Node)
+frontend/node_modules/
+
+# local editor / preview settings
+.claude/
+
+# os / local scratch
+.DS_Store
+joke.txt
+lecture12_conversation_history.md

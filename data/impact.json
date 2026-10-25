@@ -1,0 +1,13 @@
+{
+  "_instructions": "Fill this in after a real person tries the app, then run: python scripts/build_report.py. Leave a field as null and the report shows a yellow TODO in its place.",
+  "pilot_user": null,
+  "pilot_user_description": null,
+  "date": null,
+  "what_they_did": null,
+  "quote": null,
+  "minutes_to_find_someone_before": null,
+  "how_they_found_someone_before": null,
+  "seconds_to_find_someone_with_last_page": null,
+  "would_use_again": null,
+  "screenshot": null
+}

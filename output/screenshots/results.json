@@ -1,0 +1,75 @@
+{
+  "ran_at": "2026-10-25T22:52:39.814Z",
+  "steps": [
+    {
+      "name": "00_welcome",
+      "note": "The welcome screen: create an account or log in, or try a demo reader with one click."
+    },
+    {
+      "name": "01_home",
+      "note": "The Bookend home page: the logo shelf, Log a book, Chat w/ people, Chat w/ us, and the scrolling cover rail."
+    },
+    {
+      "name": "01b_next_book",
+      "note": "Your next book: the Recommendation agent ran in the background on the last book logged; below it, the shelf."
+    },
+    {
+      "name": "02_finish_form",
+      "note": "Alex marks Project Hail Mary finished today, 5 stars, and asks for readers from the last 30 days."
+    },
+    {
+      "name": "03_match",
+      "note": "Code finds 3 readers who finished it in the last 30 days (no agent needed)."
+    },
+    {
+      "name": "04_host_welcome",
+      "note": "Alex joins the room with the Discussion Host on; the Host welcomes Alex with a question."
+    },
+    {
+      "name": "05_moderation",
+      "note": "One message posts; an insult is hidden by the Moderator agent; an Instagram handle is hidden by the code screen. Only Alex sees them."
+    },
+    {
+      "name": "06_priya_host_reply",
+      "note": "Priya's view: Alex's hidden messages aren't there. Priya mentions @host and the Host answers."
+    },
+    {
+      "name": "07_matchmaker",
+      "note": "Nobody finished The Remains of the Day recently, so the Matchmaker agent finds a related book with readers."
+    },
+    {
+      "name": "08_companion",
+      "note": "The Book Companion answers, labels its basis, and says when it is not sure instead of inventing a quote."
+    },
+    {
+      "name": "08b_chats_people_vs_ai",
+      "note": "The Chats tab: rooms with real people (blue) and with AI (coral) are separate, with a banner saying which one you are in, and the globe."
+    },
+    {
+      "name": "09_recommendations",
+      "note": "The Recommendation agent suggests real catalog books; one has readers discussing it now."
+    },
+    {
+      "name": "10_agent_team",
+      "note": "The agent hand-off diagram and measured tokens and cost per agent."
+    },
+    {
+      "name": "11_run_trace",
+      "note": "One Recommendation run expanded: each tool call, its arguments and result, and the agent's answer. Right: the moderation log."
+    }
+  ],
+  "match_hail_mary": "3 readers finished this in the last 30 days.\n\nJ\nJordan\nfinished 2 days ago\nP\nPriya\nfinished 5 days ago\nS\nSam\nfinished 12 days ago\nWant to talk about it?\nChat with readers\n\nJoin the room for this book. Safety moderation is always on.\n\nAdd a Discussion Host (AI) to get the conversation going\nJoin the readers\n Talk with Booksy\n\nYour AI reading companion, grounded in the book's catalog record. Booksy says when it isn't sure.\n\nTalk with Booksy",
+  "host_welcome": "Discussion Host · AI\nWelcome, Alex! Jordan and Priya were just talking about how Ryland’s choice to go back changes the ending—and Jordan’s devotion to Rocky. What moment in Project Hail Mary most changed how you saw Ryland or his mission?\n18:52",
+  "priya_sees_hidden": 0,
+  "host_reply": "Discussion Host · AI\nI’d read the book as making room for both: Ryland’s refusal is a very human act of fear, but the story doesn’t define him by it. What matters is that, with the truth in front of him, he chooses to go back—and that choice costs him something. Jordan, Priya, and Alex: did that make his return feel more heroic to you, or simply more human?\n18:53",
+  "matchmaker": "Matchmaker · AI\n\nNo one else finished The Remains of the Day in the past year, but one reader finished Kazuo Ishiguro’s Klara and the Sun in the last 30 days. You could join that conversation instead.\n\nWant to talk about it?\nTry a related book\nKlara and the Sun\nKazuo Ishiguro · 1 recent reader\n\nFinish it to join that room, or talk about this one with Booksy now.\n\n Talk with Booksy\n\nYour AI reading companion, grounded in the book's catalog record. Booksy says when it isn't sure.\n\nTalk with Booksy",
+  "companion": [
+    "Booksy · AI\nGeneral knowledge\nThat’s the painful question at the heart of Stevens’s story. His loyalty reflects the dignity and purpose he finds in service, but it also keeps him from judging Darlington’s politics for himself—and costs him chances for intimacy and a life beyond the house. I’d say the novel invites us to see both his sincere devotion and the harm of surrendering one’s judgment to a role. What did you feel most strongly: sympathy for Stevens, or frustration with him?\n18:53",
+    "Booksy · AI\nGeneral knowledge\nI can’t provide the letter word for word, but I can paraphrase: Miss Kenton reflects on her marriage and the life she might have had, while making clear she intends to stay with her husband and return to him. That makes her letter feel both like a real possibility opening for Stevens and a gentle closing of it. What did you make of Stevens’s response to her news?\n18:53"
+  ],
+  "recs": [
+    "House in the Cerulean Sea",
+    "The Long Way to a Small, Angry Planet",
+    "The Humans : a novel"
+  ]
+}

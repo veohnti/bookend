@@ -1,0 +1,9 @@
+# Book club app (MGT 409 final project), Python 3.12+ (tested on 3.14)
+# Agents: PydanticAI, OpenAI-compatible via Portkey, gpt-6-luna only
+pydantic-ai-slim[openai]==2.55.0
+python-dotenv==1.2.4
+# Backend API (also serves the built frontend)
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+# Open Library catalog lookups
+httpx==0.28.1
